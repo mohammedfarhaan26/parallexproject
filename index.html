@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetable Shop Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Veggie's shop</h2>
+            <div class="toggle">
+                
+            </div>
+        </header>
+        <video class="vid" src="veglan.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Never Stop</h2>
+            <h3>Taking a Healthy Vegetables</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis porro voluptate rerum quod incidunt, error, nisi id doloremque distinctio suscipit accusantium debitis at unde impedit! Quo dolore facere qui corporis.</p>
+            <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href="#"><img src="https://www.freepnglogos.com/uploads/logo-facebook-png/logo-facebook-facebook-logo-png-transparent-svg-vector-bie-supply-18.png" alt="facebook"></a></li>
+            <li><a href="#"><img src="https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-instagram-new-logo-vector-download-5.png" alt="instagram"></a></li>
+            <li><a href="#"><img src="https://www.freepnglogos.com/uploads/twitter-logo-png/black-and-white-twitter-logo-png-hq-download-25.png" alt="twitter"></a></li>
+        </ul>
+    </section>
+    <div class="menu">          
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <script>
+        const mt=document.querySelector('.toggle')
+        const sw=document.querySelector('.showcase')
+        mt.addEventListener('click',()=>{
+            mt.classList.toggle('active')
+            sw.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
